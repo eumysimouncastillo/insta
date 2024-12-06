@@ -1,0 +1,82 @@
+/* General Body Styling */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa; /* Subtle off-white background */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Darker text for better readability */
+}
+
+/* Input Fields */
+input {
+    font-size: 1.2em;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background */
+}
+
+input:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow effect */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Clean border merging */
+    margin: 20px 0;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+th, td {
+    border: 1px solid #dee2e6; /* Light gray borders */
+    text-align: left;
+    padding: 12px; /* Spacing for better readability */
+}
+
+th {
+    background-color: #007bff; /* Blue header background */
+    color: #fff; /* White text for headers */
+    text-transform: uppercase; /* Capitalized headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+/* Row Spacing */
+tr {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+/* Global Spacing */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* White container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Buttons (Optional) */
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #007bff; /* Primary blue */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
